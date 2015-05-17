@@ -1,0 +1,54 @@
+-----------------------------------------------------------------------
+
+What happens when you initialize a repository? Why do you need to do
+it?
+
+When you initialize a repository using the git init command, a .git
+folder is created in the current directory, where changes and commits
+to tracked files will be logged and preserved. A history of all the
+tracked files that are committed will be created.
+
+You need to initialize a repository, in order to create versions of
+files you want to track, for when working on projects. It's a good way
+to assure oneself that any mistakes/bugs can be (more) easily fixed,
+and otherwise irreperable harm to the project is reversible. This
+provides the confidence required to innovate on a project and
+experiment with new ideas, with a peace of mind.
+
+-----------------------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------------------
