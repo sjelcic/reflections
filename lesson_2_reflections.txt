@@ -35,9 +35,17 @@ to the repository.
 
 -----------------------------------------------------------------------
 
+How can you use the staging area to make sure you have one commit per
+logical change?
 
-
-
+You can add a file to the staging area using the command git add; then
+if changes are made to the file afterwards, you can use the command
+git diff to compare that file in the working directory with the
+corresponding file in the staging area, to determine if any
+significant logical changes were made, before committing the file. You
+can also use the command git diff --staged for this same purpose, when
+comparing the file in the staging area to the most recent commit of
+that file.
 
 -----------------------------------------------------------------------
 
