@@ -11,7 +11,7 @@ tracked files that are committed will be created.
 You need to initialize a repository, in order to create versions of
 files you want to track, for when working on projects. It's a good way
 to assure oneself that any mistakes/bugs can be (more) easily fixed,
-and otherwise irreperable harm to the project is reversible. This
+and otherwise irreparable harm to the project is reversible. This
 provides the confidence required to innovate on a project and
 experiment with new ideas, with a peace of mind.
 
@@ -70,9 +70,18 @@ otherwise be unreachable.
 
 -----------------------------------------------------------------------
 
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
 
+When we merge two branches together, changes made in both branches are
+consolidated into one gif commit, whose parents are derived from two
+branches; therefore, this commit has two parents. Changes in git log
+are sorted by timestamp, between the two branches, and are interleaved.
 
-
+The changes are represented in the diagram the way they are, since the
+actual chronological order in which changes were made between both
+branches don't matter, and it is displayed in a way that is easy to
+follow.
 
 -----------------------------------------------------------------------
 
