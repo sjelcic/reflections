@@ -60,9 +60,13 @@ without any interference between them.
 
 -----------------------------------------------------------------------
 
+How do the diagrams help you visualize the branch structure?
 
-
-
+The diagrams illustrate at what point new branches were created, the
+commits made on those branches (and the master branch), and lets you
+know which branches are reachable, and which ones are not. Keeping
+track of the diagrams can help you switch to a commit that would
+otherwise be unreachable.
 
 -----------------------------------------------------------------------
 
