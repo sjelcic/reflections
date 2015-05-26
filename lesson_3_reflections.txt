@@ -1,8 +1,11 @@
 -----------------------------------------------------------------------
 
+1. When would you want to use a remote repository rather than keeping
+all your work local?
 
-
-
+This would usually be applicable whenever you are working on a project
+from multiple computers and/or you are only making commits to a
+particular file, but want to store the rest of the files on GitHub.
 
 -----------------------------------------------------------------------
 
