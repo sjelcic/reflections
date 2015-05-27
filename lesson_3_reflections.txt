@@ -9,9 +9,14 @@ particular file, but want to store the rest of the files on GitHub.
 
 -----------------------------------------------------------------------
 
+2. Why might you want to always pull changes manually rather than
+having Git automatically stay up-to-date with your remote repository?
 
-
-
+The reason for this primarily is because if you were working on a
+project which is already set up to be synchronized with GitHub, an
+automatic pull could prove disruptive and erase any progress that has
+been made on the project. Therefore, manual pull is almost always the
+better option.
 
 -----------------------------------------------------------------------
 
