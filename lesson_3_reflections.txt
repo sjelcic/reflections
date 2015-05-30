@@ -58,9 +58,21 @@ be pushed to or pulled from GitHub.
 
 -----------------------------------------------------------------------
 
+5. How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
 
+Typically in such a situation, one would email changes and ideas back
+and forth, or make modifications to files stored on a file storage
+system online. (e.g. Google Drive)
 
-
+The process of actually saving the changes, sending/receiving files,
+and not having to use the command line/syntax would make such a project
+easier. However, Git and GitHub allows you to save multiple versions of
+files, collaborate seamlessly (for the most part) on GitHub with
+others, and it is especially useful when there are many collaborators,
+which in many ways would make such a project without Git and GitHub
+harder, especially when working with code (which is Git/GitHub's
+intended purpose).
 
 -----------------------------------------------------------------------
 
