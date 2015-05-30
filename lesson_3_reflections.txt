@@ -44,9 +44,17 @@ modifying that repository for various purposes.
 
 -----------------------------------------------------------------------
 
+4. What is the benefit of having a copy of the last known state of the
+remote stored locally?
 
-
-
+The main benefits of this are that since Git tracks the state of the
+remote, it allows it to update info about the remote branch separately
+from the local branch, which may diverge, so as to allow users to
+compare the changes made between the two commits, before deciding how
+to incorporate changes from both commits, or perhaps maybe deciding to
+create another branch, to incorporate each change separately, as well
+as letting the user know which commit is the most recent/updated one to
+be pushed to or pulled from GitHub.
 
 -----------------------------------------------------------------------
 
